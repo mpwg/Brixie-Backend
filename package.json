@@ -2,15 +2,15 @@
   "name": "web",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "test": "jest --config jest.config.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Matthias Wallner-Géhri",
+  "license": "AGPL-3.0-or-later",
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0"
